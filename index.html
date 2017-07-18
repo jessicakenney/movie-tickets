@@ -16,12 +16,30 @@
             <label for="movie-title">Movie title:</label>
             <select class="custom-select" id="movie-title">
               <option selected>Select movie title</option>
-              <option class="add-movie1"></option>
-              <option class="add-movie2"></option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="movie-times">Movie times:</label>
+            <select class="custom-select" id="movie-time">
+              <option selected>Select movie times</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="tix-type">Ticket Type:</label>
+            <select class="custom-select" id="tixType">
+              <option selected>Select Ticket</option>
             </select>
           </div>
           <button type="submit" name="button">Submit</button>
         </form>
+      </div>
+      <div class="purchase-summary">
+        <h1>PURCHASE SUMMARY</h1>
+        <h2>Title:<span class="title"></span></h2>
+        <h2>Release:<span class="release"></span></h2>
+        <h2>Time:<span class="time"></span></h2>
+        <h2>Ticket type:<span class="type"></span></h2>
+        <h3>Total cost:<span class="total"></span></h3>
       </div>
     </div>
   </body>

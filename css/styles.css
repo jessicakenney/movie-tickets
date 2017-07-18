@@ -1,3 +1,15 @@
 h1 {
   text-align: center;
 }
+.movie {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.movie:hover {
+  text-decoration: underline;
+}
+
+.purchase-summary {
+  display: none;
+}
